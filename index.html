@@ -72,7 +72,7 @@
             </div>
         </nav>
         <!-- slider or carousel  -->
-        <div class="carousel w-full position-relative">
+        <div class="carousel w-full lg:relative">
             <!-- slide-1  -->
             <div id="slide1" class="carousel-item relative w-full">
                 <img src="./images/Rectangle 1.png" class="w-full h-3/4 mt-3" />
@@ -107,59 +107,82 @@
             </div>
         </div>
         <div
-            class="absolute  -mt-16 my-24 -translate-y-64 translate-x-full  text-center bg-shadow-lg p-5 w-96 rounded-lg bg-black text-white ">
-            <img src="./images/Frame 3.png" alt="">
+            class="-mt-16 my-24 -translate-y-64 translate-x-full items-center  text-center bg-shadow-lg p-5 w-96 rounded-lg  text-white ">
+            <img src="./images/Frame 3.png" class="lg:absolute mt-64 -mx-80 lg:px-[50] lg:mt-4 lg:-mt-2 lg:mx-80">
         </div>
     </header>
     <main class="container mx-auto">
         <!-- hockey's club  -->
-        <section class="my-auto container w-3/4 mx-auto">
+        <section class="my-auto container -mt-28 w-3/4 mx-auto">
             <div>
-                <h3 class=" text-4xl font-semibold text-center font-manrope">
+                <h3 class=" text-4xl font-semibold  text-center font-manrope">
                     Professional Hockey's club</h3>
                 <p class="text-center my-5">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
                     placerat <br> dolor. Purus urna in sit nullam proin.
                 </p>
             </div>
             <div>
-                <div class="grid gap-6 px-0 auto grid-cols-1 md:grid-cols-4">
+                <div class="grid mx-auto gap-6 my-24 grid-cols-1 md:grid-cols-4">
                     <div class="card w-96 bg-base-100">
-                        <figure class="px-10 pt-10">
-                            <img src="./images/Group 9.png" alt="Shoes" class="rounded-xl" />
-                        </figure>
+                        <div>
+                            <figure class="px-10 pt-10">
+                                <img src="./images/Group 9.png" alt="Shoes" class="rounded-xl relative" />
+                            </figure>
+                        </div>
+                        <div class=" left-[45%] -mt-[105%] lg:-left-[32%] -mt-[18%]">
+                            <p class="font-extrabold lg:text-2xl absolute px-40 mx-2">87%</p>
+                        </div>
                         <div class="card-body items-center text-center">
-                            <h2 class="card-title">Prayer Facility</h2>
+                            <h2 class="card-title mt-16">Prayer Facility</h2>
                             <p>Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
                         </div>
                     </div>
                     <div class="card w-96 bg-base-100">
-                        <figure class="px-10 pt-10">
-                            <img src="./images/Group 9 (1).png" alt="Shoes" class="rounded-xl" />
-                        </figure>
+                        <div>
+                            <figure class="px-10 pt-10">
+                                <img src="./images/Group 9 (1).png" alt="Shoes" class="rounded-xl relative" />
+                            </figure>
+                        </div>
+                        <div class=" left-[45%] -mt-[105%] lg:-left-[32%] -mt-[18%]">
+                            <p class="font-extrabold lg:text-2xl absolute px-40 mx-2">95%</p>
+                        </div>
+
                         <div class="card-body items-center text-center">
-                            <h2 class="card-title">Prayer Facility</h2>
+                            <h2 class="card-title mt-16">Prayer Facility</h2>
                             <p>Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
                         </div>
                     </div>
                     <div class="card w-96 bg-base-100">
-                        <figure class="px-10 pt-10">
-                            <img src="./images/Group 9 (2).png" alt="Shoes" class="rounded-xl" />
-                        </figure>
+                        <div>
+                            <figure class="px-10 pt-10">
+                                <img src="./images/Group 9 (2).png" alt="Shoes" class="rounded-xl relative" />
+                            </figure>
+                        </div>
+                        <div class="left-[45%] -mt-[105%] lg:-left-[32%] -mt-[18%]">
+                            <p class="absolute px-40 font-extrabold lg:text-2xl mx-2">90%</p>
+                        </div>
+
                         <div class="card-body items-center text-center">
-                            <h2 class="card-title">Prayer Facility</h2>
+                            <h2 class="card-title mt-16">Prayer Facility</h2>
                             <p>Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
                         </div>
                     </div>
                     <div class="card w-96 bg-base-100">
-                        <figure class="px-10 pt-10">
-                            <img src="./images/Group 9 (3).png" alt="Shoes" class="rounded-xl" />
-                        </figure>
+                        <div>
+                            <figure class="px-10 pt-10">
+                                <img src="./images/Group 9 (3).png" alt="Shoes" class="rounded-xl relative" />
+                            </figure>
+                        </div>
+                            <div class="left-[45%] -mt-[105%] lg:-left-[32%] -mt-[18%]">
+                                <p class="absolute px-40 font-extrabold lg:text-2xl mx-2">80%</p>
+                            </div>
                         <div class="card-body items-center text-center">
-                            <h2 class="card-title">Prayer Facility</h2>
+                            <h2 class="card-title mt-16">Prayer Facility</h2>
                             <p>Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
         <!-- program section  -->
@@ -435,8 +458,8 @@
                     </div>
                 </div>
                 <div>
-                    <div class=" mt-12 mx-8 grid-cols-1 -gap-6 lg:grid-cols-2">
-                        <!-- <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-8"> -->
+                    <div class=" mt-12 mx-8 grid-cols-1 -gap-6 lg:grid-cols-">
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-8">
                             <div>
                                 <label class="form-control w-full max-w-xs">
                                     <div class="label">
@@ -456,7 +479,7 @@
                                         class="input input-bordered w-full max-w-xs" />
                                 </label>
                             </div>
-                        
+                        </div>
                         <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
                             <div>
                                 <label class="form-control w-full max-w-xs">
@@ -483,18 +506,28 @@
                         <div>
                             <label class="form-control w-full >
                                 <div class=" label">
-                                <span class="label-text font-semibold mb-2">Message</span>
+                                <span class="label-text font-semibold mb-2 mx-8">Message</span>
                         </div>
-                        <textarea  placeholder="Write your Message" cols="40" rows=10"
-                            class="w-full h-64 input input-bordered"></textarea>
+                        <textarea placeholder="Write your Message" cols="40" rows=10"
+                            class="w-full h-64 input input-bordered mx-8"></textarea>
                         </label>
-                        <button class="btn btn-block bg-[#FF4240] mt-12">Send Message</button>
+                        <button class="btn btn-block bg-[#FF4240] mt-12 mx-8">Send Message</button>
                     </div>
                 </div>
             </div>
+            <!-- <div class="items-center bg-base-100 ">
+                <h4 class="text-xl font-semibold mt-16 mb-4 items-center text-center">Social Media</h4>
+                <img class="items-center mx-auto" src="./images/Social (1).png" alt="">
+            </div> -->
+            <div class="card bg-base-200 shadow-xl mt-12 mx-auto">
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title">Social Media</h2>
+                </div>
+                <figure class="px-10 pt-10">
+                    <img src="./images/Social (1).png" class="rounded-xl -mt-8 mb-6" />
+                </figure>
 
             </div>
-
         </section>
     </main>
     <footer class="footer p-10 bg-black text-base-content text-white">
